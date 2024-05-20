@@ -1,0 +1,14 @@
+<script land="ts">
+	let navOptions = [
+		{ name: 'home', link: '/' },
+		{ name: 'Services', link: '/services' }
+	];
+</script>
+
+<div class="flex flex-col justify-between w-full h-[38px] bg-red-500 px-4">
+	<div class="">
+		{#each navOptions as option}
+			<a class="px-4" href={option.link}>{option.name}</a>
+		{/each}
+	</div>
+</div>
