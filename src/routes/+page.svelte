@@ -1,5 +1,6 @@
 <script lang="ts">
-	import Carousel from './components/carousel.svelte';
+	import Cerousel from './components/cerousel.svelte';
+
 	let carImages = [
 		{ title: '1', src: '/src/assets/1.jpg' },
 		{ title: '2', src: '/src/assets/2.jpg' },
@@ -9,5 +10,5 @@
 </script>
 
 <div class="">
-	<Carousel images={carImages} />
+	<Cerousel CarouselImage={carImages} />
 </div>
