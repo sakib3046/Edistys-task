@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Cerousel from './components/cerousel.svelte';
+	import Hero from './components/hero.svelte';
 
 	let carImages = [
 		{ title: '1', src: '/src/assets/1.jpg' },
@@ -11,4 +12,5 @@
 
 <div class="">
 	<Cerousel CarouselImage={carImages} />
+	<Hero />
 </div>
