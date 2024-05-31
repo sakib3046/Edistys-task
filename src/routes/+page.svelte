@@ -12,5 +12,6 @@
 
 <div class="">
 	<Cerousel CarouselImage={carImages} />
+
 	<Hero />
 </div>

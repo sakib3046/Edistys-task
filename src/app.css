@@ -7,7 +7,4 @@
   @apply text-950
 }
 
-html {
-
-  @apply bg-gradient-to-tl from-100 to-50
-}
+html {}
